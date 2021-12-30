@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+    <title>Name Variations</title>
 </head>
 <body>
     <nav class = "navbar">
@@ -17,24 +19,25 @@
             <br>
             <input type="text" class="input" placeholder="Your name" id="your-name" autocomplete="off">
         </div>
-
-        <table class="table" border="1">
+<br>
+<br>
+        <table class="table" border="1" align="center">
             <thead>
                 <tr>
-                    <th width="200px">Variation</th>
-                    <th width="200px">Result</th>
+                    <th>Variation</th>
+                    <th>Result</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Number of chracters</td>
+                <tr align="left">
+                    <td>Number of characters</td>
                     <td id="answer1"></td>
                 </tr>
-                <tr>
+                <tr align="left">
                     <td>Lower case</td>
                     <td id="answer2"></td>
                 </tr>
-                <tr>
+                <tr align="left">
                     <td>Upper case</td>
                     <td id="answer3"></td>
                 </tr>
